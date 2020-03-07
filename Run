@@ -1,2 +1,2 @@
-#LD_LIBRARY_PATH=../HiGHS/build/lib/ ./a.out lp0037.m
-LD_LIBRARY_PATH=../HiGHS/build/lib/ ./a.out lp0002hex.m
+LD_LIBRARY_PATH=../HiGHS/build/lib/ ./a.out lp0037.m
+#LD_LIBRARY_PATH=../HiGHS/build/lib/ ./a.out lp0002hex.m

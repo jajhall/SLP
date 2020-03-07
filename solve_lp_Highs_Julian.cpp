@@ -247,11 +247,10 @@ main(int argc, char *argv[])
   // Set HiGHS options: in src/lp_data/HighsOptions.h
   highs.setHighsOptionValue("primal_feasibility_tolerance", RTOLPINF);
   highs.setHighsOptionValue("simplex_iteration_limit", IMAXITER);
-  //  highs.setHighsOptionValue("presolve", "off");
+  highs.setHighsOptionValue("presolve", "off");
 
-   highs.writeModel("ml.mps");
+  //highs.writeModel("ml.mps");
   return_status = highs.run();
-  printf("Returned from HiGHS with status %d\n", (int)return_status);
    
   //highs.setHighsOptionValue("message_level", 0);
 

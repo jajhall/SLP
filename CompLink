@@ -1,3 +1,1 @@
-#g++ -g -std=c++11 solve_lp_Highs1.cpp -I../HiGHS/src/interfaces -I../HiGHS/src/lp_data -I../HiGHS/src -I../HiGHS/build  -L../HiGHS/build/lib -lhighs
-
 g++ -g -std=c++11 solve_lp_Highs_Julian.cpp -I../HiGHS/src/interfaces -I../HiGHS/src/lp_data -I../HiGHS/src -I../HiGHS/build  -L../HiGHS/build/lib -lhighs
