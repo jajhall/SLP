@@ -1,0 +1,2 @@
+LD_LIBRARY_PATH=../HiGHS/build/lib/ ./a.out $1 $2
+

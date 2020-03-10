@@ -272,7 +272,7 @@ main(int argc, char *argv[])
 
   for(i=0;i<n;i++){
     if (d[i]-dcup[i]>1e-5  || dclo[i]-d[i] > 1e-5) {
-      cout << i << " " << dclo[i] << " " << d[i] << " " << dcup[i] << "\n";
+      //      cout << i << " " << dclo[i] << " " << d[i] << " " << dcup[i] << "\n";
     }
     //cout << i << " " << lam(i) << "\n";
     //normd = max(normd,fabs(d[i]/s[i]));
@@ -311,6 +311,7 @@ main(int argc, char *argv[])
   printf("#primal inf = %d\n", inumpinf);
   printf("#    suminf = %f\n", rsumpinf);
   printf("#    maxinf = %f\n", mx_inf);
+  printf("#   lp_iter = %d\n", nr_lp);
 
 }
 
