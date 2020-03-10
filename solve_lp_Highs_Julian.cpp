@@ -229,27 +229,26 @@ main(int argc, char *argv[])
   printf("Copied matrix data\n"); fflush(stdout);
   //  flag = highs.loadModel(n, m, nel, dobj, dclo, dcup, drlo, drup, colpts, mrow2, dels2);
   return_status = highs.passModel(lp);
- 
-
 
   //-------------------- set warmstart information ----------------
   if (set_stat) {
-    basis = highs.getBasis();
+    //    basis = highs.getBasis();
+    basis.col_status.resize(n);
     for (int i = 0; i < basis.col_status.size(); i++) {
       basis.col_status[i] = (HighsBasisStatus)sv_bs_c[i];
     }
     
+    basis.row_status.resize(m);
     for (int i = 0; i < basis.row_status.size(); i++) {
       basis.row_status[i] = (HighsBasisStatus)sv_bs_r[i];
     }
     highs.setBasis(basis);
-  }      
-  
+  }
 
   // Set HiGHS options: in src/lp_data/HighsOptions.h
   highs.setHighsOptionValue("primal_feasibility_tolerance", RTOLPINF);
   highs.setHighsOptionValue("simplex_iteration_limit", IMAXITER);
-    if (set_stat)
+  if (set_stat)
     highs.setHighsOptionValue("presolve", "off");
 
     //  highs.writeModel("ml.mps");
