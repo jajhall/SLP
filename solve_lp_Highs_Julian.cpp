@@ -250,6 +250,7 @@ main(int argc, char *argv[])
   highs.setHighsOptionValue("simplex_iteration_limit", IMAXITER);
   if (set_stat)
     highs.setHighsOptionValue("presolve", "off");
+  highs.setHighsOptionValue("simplex_scale_strategy", 3);
 
     //  highs.writeModel("ml.mps");
   return_status = highs.run();
@@ -316,6 +317,13 @@ main(int argc, char *argv[])
       rsumpinf += sinf;
     }
   
+    printf("HiGHS gives Num Primal Infeasibilities = %d\n", highs_info. num_primal_infeasibilities);
+    printf("HiGHS gives Max Primal Infeasibility   = %g\n", highs_info. max_primal_infeasibility);
+    printf("HiGHS gives Sum Primal Infeasibilities = %g\n", highs_info. sum_primal_infeasibilities);
+    printf("HiGHS gives Num   Dual Infeasibilities = %d\n", highs_info. num_dual_infeasibilities);
+    printf("HiGHS gives Max   Dual Infeasibility   = %g\n", highs_info. max_dual_infeasibility);
+    printf("HiGHS gives Sum   Dual Infeasibilities = %g\n", highs_info. sum_dual_infeasibilities);
+
     printf("#primal inf = %d\n", inumpinf);
     printf("#    suminf = %f\n", rsumpinf);
     printf("#    maxinf = %f\n", mx_inf);

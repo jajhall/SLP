@@ -1,22 +1,29 @@
 rm -f Test.ou
 echo "!>>>>lp0001.m<<<<" >> Test.ou
 ./Run_MODEL_BASIS lp0001.m >> Test.ou
+
 echo "!>>>>lp0005.m<<<<" >> Test.ou
 ./Run_MODEL_BASIS lp0005.m >> Test.ou
 echo "!>>>>lp0005.m as0005.dat<<<<" >> Test.ou
 ./Run_MODEL_BASIS lp0005.m as0005.dat >> Test.ou
+
 echo "!>>>>lp0019.m<<<<" >> Test.ou
 ./Run_MODEL_BASIS lp0019.m >> Test.ou
 echo "!>>>>lp0019.m as0019.dat<<<<" >> Test.ou
 ./Run_MODEL_BASIS lp0019.m as0019.dat >> Test.ou
+
 echo "!>>>>lp0020.m<<<<" >> Test.ou
 ./Run_MODEL_BASIS lp0020.m >> Test.ou
 echo "!>>>>lp0020.m as0020.dat<<<<" >> Test.ou
 ./Run_MODEL_BASIS lp0020.m as0020.dat >> Test.ou
+
+echo "!>>>>lp0038.m<<<<" >> Test.ou
+./Run_MODEL_BASIS lp0038.m >> Test.ou
 echo "!>>>>lp0038.m as0038.dat<<<<" >> Test.ou
 ./Run_MODEL_BASIS lp0038.m as0038.dat >> Test.ou
 
 echo "!>>>>lp0037.m<<<<" >> Test.ou
 ./Run_MODEL_BASIS lp0037.m >> Test.ou
+
 echo "!>>>>lp0002hex.m<<<<" >> Test.ou
 ./Run_MODEL_BASIS lp0002hex.m >> Test.ou
