@@ -1,0 +1,468 @@
+
+  5       0.75513683                5                     13.831766  6944   +20
+15:18:40 [WARNING] Matrix packed vector contains 2201 |values| in [0, 0] less than 1e-09: ignored
+15:18:40 [WARNING] Method setBasis is still under development and behaviour may be unpredictable
+15:18:40 [ERROR  ] HiGHS basis has 423, not 442 basic variables
+15:18:40 [ERROR  ] setBasis: invalid basis
+write LP to file: as lp0006.m
+write warmstart info to file: as as0006.dat, 1
+15:18:40 [INFO   ] Solving LP without presolve or with basis
+15:18:40 [INFO   ] Scaling: Improvement factor is 2.382e+04 >= 1 so scale LP
+buildKernel() returns rankDeficiency = 8
+
+buildRankDeficiency2:
+Index    0  1  2  3  4  5  6  7
+noPvR   110 123 128 214 240 253 318 373
+noPvC   29 43 48 58 66 180 208 235
+Setting ASM( 2,  0) =     -0.3911
+Setting ASM( 7,  0) =      0.3591
+Setting ASM( 2,  1) =       2.664
+Setting ASM( 7,  1) =      -4.553
+Setting ASM( 7,  2) =       1.744
+Setting ASM( 2,  2) =     -0.8282
+Setting ASM( 7,  3) =    -0.08384
+Setting ASM( 2,  3) =       0.149
+Setting ASM( 7,  4) =     -0.6843
+Setting ASM( 2,  4) =      0.4207
+
+ASM:                               0           1           2           3           4           5           6           7
+                                  29          43          48          58          66         180         208         235
+                        ------------------------------------------------------------------------------------------------
+          0         110|           0           0           0           0           0           0           0           0
+          1         123|           0           0           0           0           0           0           0           0
+          2         128|     -0.3911       2.664     -0.8282       0.149      0.4207           0           0           0
+          3         214|           0           0           0           0           0           0           0           0
+          4         240|           0           0           0           0           0           0           0           0
+          5         253|           0           0           0           0           0           0           0           0
+          6         318|           0           0           0           0           0           0           0           0
+          7         373|      0.3591      -4.553       1.744    -0.08384     -0.6843           0           0           0
+Rank deficiency 8: basis_matrix (3716 el); INVERT (5838 el); kernel (258 dim; 2457 el): nwork = 7
+15:18:40 [INFO   ] Initial basis condition estimate of   1.613e+06 is within the tolerance of 1e+14
+15:18:40 [INFO   ] Using dual simplex solver - serial
+buildKernel() returns rankDeficiency = 5
+
+buildRankDeficiency2:
+Index    0  1  2  3  4
+noPvR   162 214 240 318 370
+noPvC   39 128 192 229 322
+
+ASM:                               0           1           2           3           4
+                                  39         128         192         229         322
+                        ------------------------------------------------------------
+          0         162|           0           0           0           0           0
+          1         214|           0           0           0           0           0
+          2         240|           0           0           0           0           0
+          3         318|           0           0           0           0           0
+          4         370|           0           0           0           0           0
+Rank deficiency 5: basis_matrix (3670 el); INVERT (5784 el); kernel (262 dim; 2422 el): nwork = 4
+buildKernel() returns rankDeficiency = 5
+
+buildRankDeficiency2:
+Index    0  1  2  3  4
+noPvR   162 214 240 279 370
+noPvC    7 80 229 270 355
+
+ASM:                               0           1           2           3           4
+                                   7          80         229         270         355
+                        ------------------------------------------------------------
+          0         162|           0           0           0           0           0
+          1         214|           0           0           0           0           0
+          2         240|           0           0           0           0           0
+          3         279|           0           0           0           0           0
+          4         370|           0           0           0           0           0
+Rank deficiency 5: basis_matrix (3673 el); INVERT (5485 el); kernel (260 dim; 2405 el): nwork = 4
+buildKernel() returns rankDeficiency = 5
+
+buildRankDeficiency2:
+Index    0  1  2  3  4
+noPvR   162 214 240 279 370
+noPvC   51 56 90 91 98
+
+ASM:                               0           1           2           3           4
+                                  51          56          90          91          98
+                        ------------------------------------------------------------
+          0         162|           0           0           0           0           0
+          1         214|           0           0           0           0           0
+          2         240|           0           0           0           0           0
+          3         279|           0           0           0           0           0
+          4         370|           0           0           0           0           0
+Rank deficiency 5: basis_matrix (3685 el); INVERT (5376 el); kernel (258 dim; 2351 el): nwork = 4
+buildKernel() returns rankDeficiency = 5
+
+buildRankDeficiency2:
+Index    0  1  2  3  4
+noPvR   162 214 240 279 370
+noPvC   128 193 332 375 389
+
+ASM:                               0           1           2           3           4
+                                 128         193         332         375         389
+                        ------------------------------------------------------------
+          0         162|           0           0           0           0           0
+          1         214|           0           0           0           0           0
+          2         240|           0           0           0           0           0
+          3         279|           0           0           0           0           0
+          4         370|           0           0           0           0           0
+Rank deficiency 5: basis_matrix (3680 el); INVERT (5732 el); kernel (260 dim; 2395 el): nwork = 4
+buildKernel() returns rankDeficiency = 5
+
+buildRankDeficiency2:
+Index    0  1  2  3  4
+noPvR   162 214 240 279 370
+noPvC   30 36 214 241 399
+
+ASM:                               0           1           2           3           4
+                                  30          36         214         241         399
+                        ------------------------------------------------------------
+          0         162|           0           0           0           0           0
+          1         214|           0           0           0           0           0
+          2         240|           0           0           0           0           0
+          3         279|           0           0           0           0           0
+          4         370|           0           0           0           0           0
+Rank deficiency 5: basis_matrix (3666 el); INVERT (5340 el); kernel (256 dim; 2313 el): nwork = 4
+buildKernel() returns rankDeficiency = 5
+
+buildRankDeficiency2:
+Index    0  1  2  3  4
+noPvR   136 214 240 253 279
+noPvC   33 59 62 75 144
+
+ASM:                               0           1           2           3           4
+                                  33          59          62          75         144
+                        ------------------------------------------------------------
+          0         136|           0           0           0           0           0
+          1         214|           0           0           0           0           0
+          2         240|           0           0           0           0           0
+          3         253|           0           0           0           0           0
+          4         279|           0           0           0           0           0
+Rank deficiency 5: basis_matrix (3663 el); INVERT (5636 el); kernel (259 dim; 2367 el): nwork = 4
+buildKernel() returns rankDeficiency = 5
+
+buildRankDeficiency2:
+Index    0  1  2  3  4
+noPvR   136 214 240 253 279
+noPvC   38 147 150 241 410
+
+ASM:                               0           1           2           3           4
+                                  38         147         150         241         410
+                        ------------------------------------------------------------
+          0         136|           0           0           0           0           0
+          1         214|           0           0           0           0           0
+          2         240|           0           0           0           0           0
+          3         253|           0           0           0           0           0
+          4         279|           0           0           0           0           0
+Rank deficiency 5: basis_matrix (3654 el); INVERT (5473 el); kernel (260 dim; 2356 el): nwork = 4
+buildKernel() returns rankDeficiency = 5
+
+buildRankDeficiency2:
+Index    0  1  2  3  4
+noPvR   136 214 240 253 279
+noPvC    7 93 302 323 355
+
+ASM:                               0           1           2           3           4
+                                   7          93         302         323         355
+                        ------------------------------------------------------------
+          0         136|           0           0           0           0           0
+          1         214|           0           0           0           0           0
+          2         240|           0           0           0           0           0
+          3         253|           0           0           0           0           0
+          4         279|           0           0           0           0           0
+Rank deficiency 5: basis_matrix (3652 el); INVERT (5440 el); kernel (249 dim; 2250 el): nwork = 4
+buildKernel() returns rankDeficiency = 5
+
+buildRankDeficiency2:
+Index    0  1  2  3  4
+noPvR   214 240 253 279 370
+noPvC   33 187 214 303 364
+
+ASM:                               0           1           2           3           4
+                                  33         187         214         303         364
+                        ------------------------------------------------------------
+          0         214|           0           0           0           0           0
+          1         240|           0           0           0           0           0
+          2         253|           0           0           0           0           0
+          3         279|           0           0           0           0           0
+          4         370|           0           0           0           0           0
+Rank deficiency 5: basis_matrix (3655 el); INVERT (5289 el); kernel (253 dim; 2291 el): nwork = 4
+buildKernel() returns rankDeficiency = 5
+
+buildRankDeficiency2:
+Index    0  1  2  3  4
+noPvR   214 240 253 279 370
+noPvC   214 241 279 343 373
+
+ASM:                               0           1           2           3           4
+                                 214         241         279         343         373
+                        ------------------------------------------------------------
+          0         214|           0           0           0           0           0
+          1         240|           0           0           0           0           0
+          2         253|           0           0           0           0           0
+          3         279|           0           0           0           0           0
+          4         370|           0           0           0           0           0
+Rank deficiency 5: basis_matrix (3663 el); INVERT (5406 el); kernel (252 dim; 2284 el): nwork = 4
+buildKernel() returns rankDeficiency = 5
+
+buildRankDeficiency2:
+Index    0  1  2  3  4
+noPvR   214 240 253 279 370
+noPvC    4 214 282 304 354
+
+ASM:                               0           1           2           3           4
+                                   4         214         282         304         354
+                        ------------------------------------------------------------
+          0         214|           0           0           0           0           0
+          1         240|           0           0           0           0           0
+          2         253|           0           0           0           0           0
+          3         279|           0           0           0           0           0
+          4         370|           0           0           0           0           0
+Rank deficiency 5: basis_matrix (3721 el); INVERT (5513 el); kernel (254 dim; 2297 el): nwork = 4
+buildKernel() returns rankDeficiency = 5
+
+buildRankDeficiency2:
+Index    0  1  2  3  4
+noPvR   136 214 240 253 370
+noPvC   78 124 303 306 408
+
+ASM:                               0           1           2           3           4
+                                  78         124         303         306         408
+                        ------------------------------------------------------------
+          0         136|           0           0           0           0           0
+          1         214|           0           0           0           0           0
+          2         240|           0           0           0           0           0
+          3         253|           0           0           0           0           0
+          4         370|           0           0           0           0           0
+Rank deficiency 5: basis_matrix (3730 el); INVERT (5735 el); kernel (263 dim; 2379 el): nwork = 4
+buildKernel() returns rankDeficiency = 5
+
+buildRankDeficiency2:
+Index    0  1  2  3  4
+noPvR   136 214 253 266 370
+noPvC   59 196 240 253 316
+
+ASM:                               0           1           2           3           4
+                                  59         196         240         253         316
+                        ------------------------------------------------------------
+          0         136|           0           0           0           0           0
+          1         214|           0           0           0           0           0
+          2         253|           0           0           0           0           0
+          3         266|           0           0           0           0           0
+          4         370|           0           0           0           0           0
+Rank deficiency 5: basis_matrix (3776 el); INVERT (5970 el); kernel (267 dim; 2420 el): nwork = 4
+buildKernel() returns rankDeficiency = 5
+
+buildRankDeficiency2:
+Index    0  1  2  3  4
+noPvR   214 240 253 318 370
+noPvC    7 20 106 192 373
+
+ASM:                               0           1           2           3           4
+                                   7          20         106         192         373
+                        ------------------------------------------------------------
+          0         214|           0           0           0           0           0
+          1         240|           0           0           0           0           0
+          2         253|           0           0           0           0           0
+          3         318|           0           0           0           0           0
+          4         370|           0           0           0           0           0
+Rank deficiency 5: basis_matrix (3804 el); INVERT (5885 el); kernel (269 dim; 2446 el): nwork = 4
+buildKernel() returns rankDeficiency = 5
+
+buildRankDeficiency2:
+Index    0  1  2  3  4
+noPvR   136 214 240 253 370
+noPvC   77 182 198 302 387
+
+ASM:                               0           1           2           3           4
+                                  77         182         198         302         387
+                        ------------------------------------------------------------
+          0         136|           0           0           0           0           0
+          1         214|           0           0           0           0           0
+          2         240|           0           0           0           0           0
+          3         253|           0           0           0           0           0
+          4         370|           0           0           0           0           0
+Rank deficiency 5: basis_matrix (3845 el); INVERT (6002 el); kernel (276 dim; 2529 el): nwork = 4
+buildKernel() returns rankDeficiency = 5
+
+buildRankDeficiency2:
+Index    0  1  2  3  4
+noPvR   136 214 240 253 370
+noPvC   47 225 290 345 392
+
+ASM:                               0           1           2           3           4
+                                  47         225         290         345         392
+                        ------------------------------------------------------------
+          0         136|           0           0           0           0           0
+          1         214|           0           0           0           0           0
+          2         240|           0           0           0           0           0
+          3         253|           0           0           0           0           0
+          4         370|           0           0           0           0           0
+Rank deficiency 5: basis_matrix (3808 el); INVERT (6005 el); kernel (275 dim; 2522 el): nwork = 4
+buildKernel() returns rankDeficiency = 5
+
+buildRankDeficiency2:
+Index    0  1  2  3  4
+noPvR   136 162 214 240 370
+noPvC   165 192 253 370 399
+
+ASM:                               0           1           2           3           4
+                                 165         192         253         370         399
+                        ------------------------------------------------------------
+          0         136|           0           0           0           0           0
+          1         162|           0           0           0           0           0
+          2         214|           0           0           0           0           0
+          3         240|           0           0           0           0           0
+          4         370|           0           0           0           0           0
+Rank deficiency 5: basis_matrix (3807 el); INVERT (5886 el); kernel (274 dim; 2494 el): nwork = 4
+buildKernel() returns rankDeficiency = 5
+
+buildRankDeficiency2:
+Index    0  1  2  3  4
+noPvR   188 214 240 253 370
+noPvC   124 269 270 393 399
+
+ASM:                               0           1           2           3           4
+                                 124         269         270         393         399
+                        ------------------------------------------------------------
+          0         188|           0           0           0           0           0
+          1         214|           0           0           0           0           0
+          2         240|           0           0           0           0           0
+          3         253|           0           0           0           0           0
+          4         370|           0           0           0           0           0
+Rank deficiency 5: basis_matrix (3709 el); INVERT (5528 el); kernel (266 dim; 2376 el): nwork = 4
+buildKernel() returns rankDeficiency = 5
+
+buildRankDeficiency2:
+Index    0  1  2  3  4
+noPvR   188 214 240 253 370
+noPvC   150 192 214 253 412
+
+ASM:                               0           1           2           3           4
+                                 150         192         214         253         412
+                        ------------------------------------------------------------
+          0         188|           0           0           0           0           0
+          1         214|           0           0           0           0           0
+          2         240|           0           0           0           0           0
+          3         253|           0           0           0           0           0
+          4         370|           0           0           0           0           0
+Rank deficiency 5: basis_matrix (3649 el); INVERT (5386 el); kernel (262 dim; 2316 el): nwork = 4
+buildKernel() returns rankDeficiency = 5
+
+buildRankDeficiency2:
+Index    0  1  2  3  4
+noPvR   136 214 240 253 279
+noPvC   34 78 134 319 328
+
+ASM:                               0           1           2           3           4
+                                  34          78         134         319         328
+                        ------------------------------------------------------------
+          0         136|           0           0           0           0           0
+          1         214|           0           0           0           0           0
+          2         240|           0           0           0           0           0
+          3         253|           0           0           0           0           0
+          4         279|           0           0           0           0           0
+Rank deficiency 5: basis_matrix (3701 el); INVERT (5489 el); kernel (268 dim; 2421 el): nwork = 4
+buildKernel() returns rankDeficiency = 5
+
+buildRankDeficiency2:
+Index    0  1  2  3  4
+noPvR   214 240 253 357 370
+noPvC   139 281 345 399 413
+
+ASM:                               0           1           2           3           4
+                                 139         281         345         399         413
+                        ------------------------------------------------------------
+          0         214|           0           0           0           0           0
+          1         240|           0           0           0           0           0
+          2         253|           0           0           0           0           0
+          3         357|           0           0           0           0           0
+          4         370|           0           0           0           0           0
+Rank deficiency 5: basis_matrix (3743 el); INVERT (5707 el); kernel (272 dim; 2470 el): nwork = 4
+^XbuildKernel() returns rankDeficiency = 5
+
+buildRankDeficiency2:
+Index    0  1  2  3  4
+noPvR   214 240 253 357 370
+noPvC   143 150 204 342 386
+
+ASM:                               0           1           2           3           4
+                                 143         150         204         342         386
+                        ------------------------------------------------------------
+          0         214|           0           0           0           0           0
+          1         240|           0           0           0           0           0
+          2         253|           0           0           0           0           0
+          3         357|           0           0           0           0           0
+          4         370|           0           0           0           0           0
+Rank deficiency 5: basis_matrix (3906 el); INVERT (6425 el); kernel (287 dim; 2719 el): nwork = 4
+buildKernel() returns rankDeficiency = 5
+
+buildRankDeficiency2:
+Index    0  1  2  3  4
+noPvR   188 214 240 253 370
+noPvC   64 95 117 204 243
+
+ASM:                               0           1           2           3           4
+                                  64          95         117         204         243
+                        ------------------------------------------------------------
+          0         188|           0           0           0           0           0
+          1         214|           0           0           0           0           0
+          2         240|           0           0           0           0           0
+          3         253|           0           0           0           0           0
+          4         370|           0           0           0           0           0
+Rank deficiency 5: basis_matrix (3857 el); INVERT (6163 el); kernel (285 dim; 2680 el): nwork = 4
+buildKernel() returns rankDeficiency = 5
+
+buildRankDeficiency2:
+Index    0  1  2  3  4
+noPvR   188 214 240 253 370
+noPvC   127 188 351 397 412
+
+ASM:                               0           1           2           3           4
+                                 127         188         351         397         412
+                        ------------------------------------------------------------
+          0         188|           0           0           0           0           0
+          1         214|           0           0           0           0           0
+          2         240|           0           0           0           0           0
+          3         253|           0           0           0           0           0
+          4         370|           0           0           0           0           0
+Rank deficiency 5: basis_matrix (3801 el); INVERT (5927 el); kernel (279 dim; 2584 el): nwork = 4
+buildKernel() returns rankDeficiency = 5
+
+buildRankDeficiency2:
+Index    0  1  2  3  4
+noPvR   188 214 240 253 370
+noPvC    7 98 135 355 386
+
+ASM:                               0           1           2           3           4
+                                   7          98         135         355         386
+                        ------------------------------------------------------------
+          0         188|           0           0           0           0           0
+          1         214|           0           0           0           0           0
+          2         240|           0           0           0           0           0
+          3         253|           0           0           0           0           0
+          4         370|           0           0           0           0           0
+Rank deficiency 5: basis_matrix (3807 el); INVERT (5908 el); kernel (276 dim; 2534 el): nwork = 4
+buildKernel() returns rankDeficiency = 5
+
+buildRankDeficiency2:
+Index    0  1  2  3  4
+noPvR   214 240 253 357 370
+noPvC   135 139 316 412 425
+
+ASM:                               0           1           2           3           4
+                                 135         139         316         412         425
+                        ------------------------------------------------------------
+          0         214|           0           0           0           0           0
+          1         240|           0           0           0           0           0
+          2         253|           0           0           0           0           0
+          3         357|           0           0           0           0           0
+          4         370|           0           0           0           0           0
+Rank deficiency 5: basis_matrix (3798 el); INVERT (5873 el); kernel (276 dim; 2540 el): nwork = 4
+buildKernel() returns rankDeficiency = 5
+
+buildRankDeficiency2:
+Index    0  1  2  3  4
+noPvR   188 214 240 253 370
+noPvC   214 218 357 360 394
+
+ASM:                               0           1           2           3           4
+^C                                 214         218         357         360         394
+
+[agr@Unknown-08-11-96-a7-5d-58 integra2++]$ 

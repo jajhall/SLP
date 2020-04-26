@@ -5,11 +5,7 @@
 #include <cstring>
 
 
-#include "HConst.h"
 #include "Highs.h"
-#include "HighsStatus.h"
-#include "HighsInfo.h"
-#include "HighsLp.h"
 
 // ------------------------ some option values --------------------------
 
