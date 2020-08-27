@@ -10,6 +10,7 @@ CompLink
 
 # Run script and "in" file
 Run_MODEL_BASIS
+SolveAllMl
 
 # makefile, object and executable
 makefile
