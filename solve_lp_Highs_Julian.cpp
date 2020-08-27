@@ -246,7 +246,7 @@ main(int argc, char *argv[])
   highs.setHighsOptionValue("simplex_iteration_limit", IMAXITER);
   if (set_stat)
     highs.setHighsOptionValue("presolve", "off");
-  highs.setHighsOptionValue("simplex_scale_strategy", 3);
+  //  highs.setHighsOptionValue("simplex_scale_strategy", 3);
 
     //  highs.writeModel("ml.mps");
   return_status = highs.run();

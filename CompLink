@@ -1,7 +1,7 @@
 # When linking using a build directory ../HiGHS/build
-export HIGHS_DIR=../HiGHS
-g++ -g -std=c++11 solve_lp_Highs_Julian.cpp -I$HIGHS_DIR/src -I$HIGHS_DIR/build  -L$HIGHS_DIR/build/lib -lhighs
+#export HIGHS_DIR=../HiGHS
+#g++ -g -std=c++11 solve_lp_Highs_Julian.cpp -I$HIGHS_DIR/src -I$HIGHS_DIR/build  -L$HIGHS_DIR/build/lib -lhighs
 
 # When linking using an installation directory ./HiGHS
-#export HIGHS_DIR=./HiGHS
-#g++ -g -std=c++11 solve_lp_Highs_Julian.cpp -I$HIGHS_DIR/include -L$HIGHS_DIR/lib -lhighs
+export HIGHS_DIR=./HiGHS
+g++ -g -std=c++11 solve_lp_Highs_Julian.cpp -I$HIGHS_DIR/include -L$HIGHS_DIR/lib -lhighs

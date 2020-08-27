@@ -1,4 +1,4 @@
-LD_LIBRARY_PATH=../HiGHS/build/lib/ ./a.out $1 $2
+LD_LIBRARY_PATH=./HiGHS/lib/ ./a.out $1 $2
 #mv ml.mps $1.mps
 
 

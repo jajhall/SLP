@@ -1,5 +1,29 @@
-a.out
-*.mps
-Test.ou
+# Emacs debris
 *~
-.vscode/
+.*~
+
+# Diagnostic
+Test.ou
+
+# Compile script
+CompLink
+
+# Run script and "in" file
+Run_MODEL_BASIS
+
+# makefile, object and executable
+makefile
+*.o
+a.out
+
+# Directories
+.vscode
+HiGHS
+
+# Control variables
+slp_ct.dat
+
+# Output files
+*.dat
+*.m
+*.mps
